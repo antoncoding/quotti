@@ -1,24 +1,21 @@
 # Quotti
 
-> A GitHub App built with [Probot](https://github.com/probot/probot) that Get a great quote for your PR.
+> 
+<p align="center">
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/50/Closed_Book_Icon.svg" height=160>
 
-## Setup
+<p align="center">  Learn from a great mind while waiting for PR checks.</p>
+<p align="center">
+<a href="https://opensource.org/licenses/ISC"><img src="https://img.shields.io/github/license/antoncoding/quotti?style=for-the-badge"/></a> <a href="https://github.com/apps/quotti"><img src="https://img.shields.io/badge/Marketplace-Github-blue?style=for-the-badge"> </a>
 
-```sh
-# Install dependencies
-npm install
+## Screenshot
 
-# Run with hot reload
-npm run build:watch
-
-# Compile and run
-npm run build
-npm run start
-```
+<img src="https://i.imgur.com/17ELP4V.png">
+</p>
 
 ## Contributing
 
-If you have suggestions for how quote-bot could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
+If you have suggestions for how quotti could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
 
 For more, check out the [Contributing Guide](CONTRIBUTING.md).
 

@@ -1,7 +1,6 @@
-import { Application, Context } from "probot";
+import { Context } from "probot";
 
-export async function createCheck(app: Application, context: Context, headSha:string) {
-  app.log('Recieved a PR webhook payload');
+export async function createCheck(context: Context, headSha:string) {
   const repoOwner = context.payload.repository.owner.login;
   const repoName = context.payload.repository.name;
 

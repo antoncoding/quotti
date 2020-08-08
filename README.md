@@ -1,4 +1,4 @@
-# quote-bot
+# Quotti
 
 > A GitHub App built with [Probot](https://github.com/probot/probot) that Get a great quote for your PR.
 

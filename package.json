@@ -1,13 +1,13 @@
 {
-  "name": "quote-bot",
+  "name": "quotti",
   "version": "1.0.0",
   "private": true,
   "description": "Get a great quote for your PR.",
   "author": "Anton Cheng <antonassocareer@gmail.com>",
   "license": "ISC",
-  "repository": "https://github.com/antoncoding/quote-bot.git",
-  "homepage": "https://github.com/antoncoding/quote-bot",
-  "bugs": "https://github.com/antoncoding/quote-bot/issues",
+  "repository": "https://github.com/antoncoding/quotti.git",
+  "homepage": "https://github.com/antoncoding/quotti",
+  "bugs": "https://github.com/antoncoding/quotti/issues",
   "keywords": [
     "probot",
     "github",

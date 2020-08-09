@@ -20,23 +20,24 @@ export = (app: Application) => {
   app.on('check_run.created', async(context: Context<Webhooks.WebhookPayloadCheckRun>) => {
 
     const checkAppId = context.payload.check_run.app.id
-    if(checkAppId.toString() === process.env.APP_ID) {
-      const quote = await getQuote()
-      const repoOwner = context.payload.repository.owner.login;
-      const checkRunId = context.payload.check_run.id;
-      const repoName = context.payload.repository.name;
-  
-      await context.github.checks.update({
-        owner: repoOwner,
-        repo: repoName,
-        check_run_id: checkRunId,
-        status: "completed",
-        conclusion: "success",
-        output: {
-          title: `${quote.text} --${quote.author}`,
-          summary: `Quote from ${quote.author} \n ${quote.text}`
-        }
-      });
-    }
+    if(checkAppId.toString() !== process.env.APP_ID) return;
+    
+    const quote = await getQuote()
+    const repoOwner = context.payload.repository.owner.login;
+    const checkRunId = context.payload.check_run.id;
+    const repoName = context.payload.repository.name;
+
+    await context.github.checks.update({
+      owner: repoOwner,
+      repo: repoName,
+      check_run_id: checkRunId,
+      status: "completed",
+      conclusion: "success",
+      output: {
+        title: `${quote.text} --${quote.author}`,
+        summary: `Quote from ${quote.author} \n ${quote.text}`
+      }
+    });
+    
   });
 }

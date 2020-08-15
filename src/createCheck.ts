@@ -9,6 +9,6 @@ export async function createCheck(context: Context, headSha:string) {
     owner: repoOwner,
     repo: repoName,
     head_sha: headSha,
-    status: "completed",
+    status: "in_progress",
   });
 }

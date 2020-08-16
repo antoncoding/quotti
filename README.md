@@ -6,7 +6,7 @@
 
 <p align="center"><code>  Learn from a great mind while waiting for PR checks.</code></p>
 <p align="center">
-<a href="https://opensource.org/licenses/ISC"><img src="https://img.shields.io/github/license/antoncoding/quotti?style=for-the-badge"/></a> <a href="https://github.com/apps/quotti"><img src="https://img.shields.io/badge/Marketplace-Github-blue?style=for-the-badge"> </a>
+<a href="https://opensource.org/licenses/ISC"><img src="https://img.shields.io/github/license/antoncoding/quotti?style=for-the-badge"/></a> <a href="https://github.com/marketplace/quotti"><img src="https://img.shields.io/badge/Marketplace-Github-blue?style=for-the-badge"> </a>
 
 > Waiting too long for code to build, test and deploy? Take 3 seconds to learn a new quote and get your self motivated for the next commit!  -- Quotti
 
